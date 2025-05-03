@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: urlShort
+  datasource:
+    url: ${x}
+    username: ${m}
+    password: ${n}
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
